@@ -87,7 +87,7 @@ namespace Division42.Framework.Collections
         /// <summary>
         /// Moves the specified <paramref name="item"/> down on position in the queue.
         /// </summary>
-        /// <param name="item"></param>
+        /// <param name="item">The item to be moved.</param>
         /// <exception cref="ArgumentNullException">If <paramref name="item"/> is null.</exception>
         /// <exception cref="InvalidOperationException">If <paramref name="item"/> is already the last item.</exception>
         public void MoveDown(TItem item)
